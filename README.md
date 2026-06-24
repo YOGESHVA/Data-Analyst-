@@ -144,7 +144,125 @@ Learned how binary operations work and how left shift and right shift operators 
 * Bitwise operators work directly with binary numbers.
 * Logical operators help create complex conditions.
 
-## Conclusion
+# Day 3 – Python Data Types and String Operations
+
+## 📚 Topics Covered
+
+### 1. Data Types in Python
+
+Data types define the type of data that can be stored in a variable.
+
+#### Numeric Data Types
+
+* Integer (`int`)
+* Float (`float`)
+
+Example:
+
+```python
+num = 8
+num_2 = 7.89
+```
+
+### 2. Floor Division (`//`)
+
+The floor division operator returns the quotient as the nearest whole number.
+
+Example:
+
+```python
+num = 6.89
+print(num // 2)
+```
+
+### 3. Strings in Python
+
+A string is a sequence of characters enclosed in single quotes (`' '`) or double quotes (`" "`).
+
+Features:
+
+* Strings are immutable (cannot be modified directly).
+* Strings support concatenation using the `+` operator.
+
+Example:
+
+```python
+so = "Python"
+any_ = " is a Language"
+print(so + any_)
+```
+
+### 4. String Indexing
+
+Indexing allows us to access individual characters in a string.
+
+* Positive indexing starts from `0`.
+* Negative indexing starts from `-1`.
+
+Example:
+
+```python
+so = "Python is a Language"
+print(so[3])
+print(so[-1])
+```
+
+### 5. String Methods
+
+#### replace()
+
+Replaces old text with new text.
+
+```python
+so.replace("python", "Java")
+```
+
+#### join()
+
+Joins characters or strings using a separator.
+
+```python
+"-".join(so)
+```
+
+#### split()
+
+Splits a string into a list.
+
+```python
+so.split()
+```
+
+#### count()
+
+Counts the occurrences of a substring.
+
+```python
+so.count("a")
+```
+
+### 6. Built-in String Functions
+
+* `len()` – Returns the length of the string.
+* `max()` – Returns the maximum character.
+* `min()` – Returns the minimum character.
+
+Example:
+
+```python
+len(so)
+max(so)
+min(so)
+```
+
+## 🎯 Key Takeaway
+
+Understanding data types and string operations is essential because strings play a major role in data cleaning, text processing, and real-world data analysis tasks. Learning string methods and built-in functions helps write efficient and readable Python code.
+
+---
+
+✅ Day 3 completed successfully as part of my #100DaysOfDataAnalyst journey.
+
 
 
 
