@@ -263,6 +263,148 @@ Understanding data types and string operations is essential because strings play
 
 ✅ Day 3 completed successfully as part of my #100DaysOfDataAnalyst journey.
 
+# Day 4 – Python Lists and Tuples
+
+## 📚 Topics Covered
+
+### 1. Lists in Python
+
+A list is a collection of different data types enclosed in square brackets `[]` and separated by commas.
+
+Example:
+
+```python
+all_type = [1, 'Python', [1, 2]]
+```
+
+### Key Features of Lists:
+
+* Ordered collection.
+* Can store multiple data types.
+* Mutable (values can be modified).
+* Supports indexing and slicing.
+
+---
+
+## List Methods
+
+### append()
+
+Adds a single element to the end of the list.
+
+```python
+numbers = [1, 2, 3, 4]
+numbers.append(5)
+```
+
+### extend()
+
+Adds multiple elements to the list.
+
+```python
+numbers.extend([10, 20])
+```
+
+### pop()
+
+Removes an element based on its index position.
+
+```python
+numbers.pop(2)
+```
+
+### remove()
+
+Removes the specified value from the list.
+
+```python
+numbers.remove(4)
+```
+
+### Indexing
+
+Accessing elements using index positions, including nested lists.
+
+```python
+any = [1, 2, 'Python', [45, 78, 'Java', [1, 23], 90]]
+print(any[3][3][1])
+```
+
+---
+
+## Mutable vs Immutable
+
+### Mutable Data Types
+
+* List
+* Dictionary
+* Set
+
+Their values can be modified after creation.
+
+### Immutable Data Types
+
+* String
+* Tuple
+
+Their values cannot be changed after creation.
+
+---
+
+## 2. Tuples in Python
+
+A tuple is a collection of different data types enclosed in parentheses `()`.
+
+Example:
+
+```python
+how = (1, 2, 3, 4, "Python", [4, 5, 'yogi'], (90, 60))
+```
+
+### Features of Tuples:
+
+* Ordered collection.
+* Immutable.
+* Faster than lists.
+* Allows duplicate values.
+
+---
+
+## Tuple Methods
+
+### index()
+
+Returns the index position of an element.
+
+```python
+how.index("Python")
+```
+
+### count()
+
+Counts the number of occurrences of a value.
+
+```python
+how.count(3)
+```
+
+### len()
+
+Returns the total number of elements.
+
+```python
+len(how)
+```
+
+---
+
+## 🎯 Key Takeaway
+
+Lists are useful when data needs to be modified, while tuples are ideal for storing fixed data that should remain unchanged. Understanding these collection data types is essential for data manipulation and analysis in Python.
+
+---
+
+✅ Day 4 completed successfully as part of my #100DaysOfDataAnalyst journey.
 
 
 
