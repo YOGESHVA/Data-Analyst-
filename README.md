@@ -405,6 +405,165 @@ Lists are useful when data needs to be modified, while tuples are ideal for stor
 ---
 
 ✅ Day 4 completed successfully as part of my #100DaysOfDataAnalyst journey.
+# Day 5 – Python Dictionaries and Sets
+
+## 📚 Topics Covered
+
+### 1. Dictionaries in Python
+
+A dictionary is a collection of key-value pairs separated by a colon (`:`). Each key must be unique and should use immutable data types.
+
+Example:
+
+```python
+details = {
+    "Name": "Teja",
+    "Age": 56,
+    "Gender": "Male"
+}
+```
+
+### Features of Dictionaries:
+
+* Stores data as key-value pairs.
+* Keys are unique.
+* Mutable data structure.
+* Fast data retrieval using keys.
+
+---
+
+## Dictionary Methods
+
+### `keys()`
+
+Returns all the keys in the dictionary.
+
+```python
+details.keys()
+```
+
+### `values()`
+
+Returns all the values in the dictionary.
+
+```python
+details.values()
+```
+
+### `items()`
+
+Returns key-value pairs as tuples.
+
+```python
+details.items()
+```
+
+### `clear()`
+
+Removes all elements from the dictionary.
+
+```python
+details.clear()
+```
+
+### `update()`
+
+Adds or updates key-value pairs.
+
+```python
+details.update({"mob": "234566"})
+```
+
+---
+
+## 2. Sets in Python
+
+A set is a collection of unique elements enclosed in curly braces `{}`.
+
+Example:
+
+```python
+numbers = {1, 2, 3, 4}
+```
+
+### Features of Sets:
+
+* Stores unique values.
+* Automatically removes duplicate elements.
+* Mutable data structure.
+* Unordered collection.
+
+---
+
+## Set Operations
+
+### `union()`
+
+Combines elements from both sets.
+
+```python
+set1.union(set2)
+set1 | set2
+```
+
+### `intersection()`
+
+Returns common elements between sets.
+
+```python
+set1.intersection(set2)
+```
+
+### `symmetric_difference()`
+
+Returns elements that are present in either set but not in both.
+
+```python
+set1.symmetric_difference(set2)
+set1 ^ set2
+```
+
+---
+
+## Set Methods
+
+### `add()`
+
+Adds a new element to the set.
+
+```python
+numbers.add(7)
+```
+
+### `pop()`
+
+Removes and returns a random element from the set.
+
+```python
+numbers.pop()
+```
+
+### `discard()`
+
+Removes a specified element without raising an error if the element is not present.
+
+```python
+numbers.discard(2)
+```
+
+---
+
+## 🎯 Key Takeaways
+
+* Dictionaries organize data using key-value pairs.
+* Keys must be unique and immutable.
+* Sets automatically remove duplicate values.
+* Set operations such as union and intersection are useful for data analysis.
+* Dictionaries and sets are widely used in Python programming and real-world data processing.
+
+---
+
+✅ Day 5 completed successfully as part of my **#100DaysOfDataAnalyst** journey.
 
 
 
