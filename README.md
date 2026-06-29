@@ -564,6 +564,134 @@ numbers.discard(2)
 ---
 
 ✅ Day 5 completed successfully as part of my **#100DaysOfDataAnalyst** journey.
+# Day 6 – Python Type Conversion
+
+## 📚 Topics Covered
+
+### What is Type Conversion?
+
+Type conversion is the process of converting one data type into another data type.
+
+Python provides several built-in functions for type conversion.
+
+---
+
+## Numeric Type Conversion
+
+### Float to String
+
+```python
+num = 8.9
+text = str(num)
+```
+
+### Float to Integer
+
+```python
+num = 8.9
+value = int(num)
+```
+
+The decimal part is removed during integer conversion.
+
+---
+
+## String Conversion
+
+### String to Integer
+
+```python
+value = "38"
+num = int(value)
+```
+
+Only numeric strings can be converted into integers.
+
+### String to Float
+
+```python
+value = "67.8"
+num = float(value)
+```
+
+### String to List
+
+```python
+text = "12345"
+result = list(text)
+```
+
+### String to Tuple
+
+```python
+text = "12345"
+result = tuple(text)
+```
+
+---
+
+## List Conversion
+
+### List to String
+
+```python
+letters = ['p', 'y', 't', 'h', 'o', 'n']
+text = "".join(letters)
+```
+
+### List to Tuple
+
+```python
+letters = ['p', 'y', 't', 'h', 'o', 'n']
+result = tuple(letters)
+```
+
+### List to Dictionary
+
+```python
+data = [('a', 1), ('b', 2)]
+result = dict(data)
+```
+
+---
+
+## Tuple Conversion
+
+### Tuple to List
+
+```python
+numbers = (1, 2, 3, 4)
+result = list(numbers)
+```
+
+### Tuple to String
+
+```python
+letters = ('y', 'o', 'g', 'e', 's', 'h')
+name = "".join(letters)
+```
+
+---
+
+## Built-in Functions Learned
+
+* `str()`
+* `int()`
+* `float()`
+* `list()`
+* `tuple()`
+* `dict()`
+
+---
+
+## 🎯 Key Takeaway
+
+Type conversion helps transform data from one type to another, making data processing easier and more flexible. Understanding type casting is important for data cleaning, user input handling, and data analysis tasks.
+
+---
+
+✅ Day 6 completed successfully as part of my **#100DaysOfDataAnalyst** journey.
+
 
 
 
