@@ -691,6 +691,107 @@ Type conversion helps transform data from one type to another, making data proce
 ---
 
 ✅ Day 6 completed successfully as part of my **#100DaysOfDataAnalyst** journey.
+# Day 8 – Conditional Statements in Python
+
+## 📚 Topics Covered
+
+### 1. Python Statements
+
+Python statements are categorized into three main types:
+
+* **Conditional Statements** – `if`, `elif`, `else`
+* **Control Statements** – `break`, `continue`, `pass`
+* **Looping Statements** – `for`, `while`
+
+Today, I focused on **Conditional Statements**.
+
+---
+
+## 2. `if` Statement
+
+The `if` statement executes a block of code only when the given condition is `True`.
+
+Example:
+
+* Checking whether a number is even or odd.
+
+```python
+if num % 2 == 0:
+    print("Even")
+else:
+    print("Odd")
+```
+
+---
+
+## 3. Nested `if` Statement
+
+A nested `if` is an `if` statement inside another `if` statement.
+
+Example:
+
+* Validating an ATM PIN by checking:
+
+  * PIN length
+  * Correct PIN value
+
+This helped me understand how multiple conditions can be checked step by step.
+
+---
+
+## 4. `elif` Statement
+
+The `elif` statement is used to evaluate multiple conditions.
+
+Example:
+
+* Grade calculation based on marks.
+
+```python
+if marks >= 90:
+    print("A+")
+elif marks >= 80:
+    print("A")
+elif marks >= 70:
+    print("B+")
+else:
+    print("Fail")
+```
+
+---
+
+## 5. Practice Programs
+
+### ✔ Even or Odd Number
+
+Used `if...else` to determine whether a number is even or odd.
+
+### ✔ ATM PIN Validation
+
+Created a simple ATM PIN verification program using nested `if`.
+
+### ✔ Student Grade Calculator
+
+Used multiple `elif` conditions to assign grades.
+
+### ✔ Vowel or Consonant
+
+Checked whether a user-entered character is a vowel or consonant.
+
+### ✔ Maximum of Four Numbers
+
+Compared four numbers using conditional statements to find the largest value.
+
+---
+
+## 🎯 Key Takeaway
+
+Conditional statements allow programs to make decisions based on different situations. Understanding `if`, `elif`, `else`, and nested `if` is essential for building interactive applications and solving real-world programming problems.
+
+---
+
+✅ Day 8 completed successfully as part of my **#100DaysOfDataAnalyst** journey.
+
 
 
 
