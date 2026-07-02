@@ -792,6 +792,130 @@ Conditional statements allow programs to make decisions based on different situa
 
 ✅ Day 8 completed successfully as part of my **#100DaysOfDataAnalyst** journey.
 
+# Day 9 – Loops and Control Statements in Python
+
+## 📚 Topics Covered
+
+### 1. Loops in Python
+
+Loops are used to execute a block of code repeatedly without writing the same code multiple times.
+
+Python provides two types of loops:
+
+* **for loop**
+* **while loop**
+
+---
+
+## 2. For Loop
+
+The `for` loop is used to iterate over a sequence such as:
+
+* Strings
+* Lists
+* Tuples
+* Dictionaries
+* Ranges
+
+### Examples Practiced
+
+* Iterating through a string character by character.
+* Iterating through a list and printing even numbers.
+* Iterating through a tuple.
+* Iterating through dictionary keys using `keys()`.
+
+---
+
+## 3. `else` with `for` Loop
+
+The `else` block executes after the loop finishes normally.
+
+If the loop is terminated using `break`, the `else` block will not execute.
+
+---
+
+## 4. Control Statements
+
+### `break`
+
+* Immediately exits the loop.
+
+### `continue`
+
+* Skips the current iteration and moves to the next one.
+
+### `pass`
+
+* Acts as a placeholder when no action is required.
+
+---
+
+## 5. `range()` Function
+
+The `range()` function generates a sequence of numbers.
+
+Syntax:
+
+```python
+range(start, stop, step)
+```
+
+Examples practiced:
+
+* Printing numbers from 1 to 10.
+* Printing even numbers using `range()`.
+
+---
+
+## 6. While Loop
+
+The `while` loop executes as long as the given condition is `True`.
+
+Example:
+
+* Printing numbers using a counter variable.
+* Understanding the importance of updating the loop variable to avoid infinite loops.
+
+---
+
+## 7. `assert` Statement
+
+The `assert` statement checks whether a condition is `True`.
+
+If the condition is `False`, Python raises an `AssertionError`.
+
+Example:
+
+* Validating that a user's age is at least 18.
+
+---
+
+## Practice Programs
+
+✔ Printing characters from a string.
+
+✔ Printing even numbers using a `for` loop.
+
+✔ Iterating through tuples and dictionaries.
+
+✔ Using `break`, `continue`, and `pass`.
+
+✔ Generating number sequences using `range()`.
+
+✔ Printing numbers using a `while` loop.
+
+✔ Understanding `assert` for condition validation.
+
+---
+
+## 🎯 Key Takeaway
+
+Loops are essential for automating repetitive tasks, while control statements like `break`, `continue`, and `pass` provide greater flexibility in managing program flow. Mastering loops is a fundamental step toward solving programming problems efficiently.
+
+---
+
+✅ Day 9 completed successfully as part of my **#100DaysOfDataAnalyst** journey.
+
 
 
 
