@@ -915,6 +915,126 @@ Loops are essential for automating repetitive tasks, while control statements li
 ---
 
 ✅ Day 9 completed successfully as part of my **#100DaysOfDataAnalyst** journey.
+# Day 10 – Prime Numbers, Armstrong Numbers, and Pattern Programs
+
+## 📚 Topics Covered
+
+### 1. Prime Number
+
+A prime number is a number that has exactly two factors: **1** and itself.
+
+### Concepts Learned
+
+* Finding whether a number is prime.
+* Counting the number of factors using loops.
+* Using nested loops to generate all prime numbers within a given range.
+
+Example:
+
+* Check if a number is prime.
+* Print all prime numbers from **1 to 20**.
+
+---
+
+## 2. Nested Loops
+
+Practiced nested `for` loops to solve different programming problems.
+
+### Pattern Programs
+
+#### Star Pattern
+
+```text
+*
+* *
+* * *
+* * * *
+* * * * *
+```
+
+#### Repeating Number Pattern
+
+```text
+1
+2 2
+3 3 3
+4 4 4 4
+5 5 5 5 5
+```
+
+#### Sequential Number Pattern
+
+```text
+1
+1 2
+1 2 3
+1 2 3 4
+1 2 3 4 5
+```
+
+#### Continuous Number Pattern
+
+```text
+1
+2 3
+4 5 6
+7 8 9 10
+11 12 13 14 15
+```
+
+#### Reverse Pattern
+
+```text
+1 2 3 4
+1 2 3
+1 2
+1
+```
+
+---
+
+## 3. Armstrong Number
+
+An Armstrong number is a number that is equal to the sum of its digits raised to the power of the total number of digits.
+
+Example:
+
+153
+
+* 1³ + 5³ + 3³ = 153
+
+Concepts practiced:
+
+* Converting numbers to strings.
+* Finding the length of a number.
+* Using loops to calculate the sum of powers.
+* Verifying whether a number is an Armstrong number.
+
+---
+
+## 4. Pyramid Star Pattern
+
+Created a centered pyramid using nested loops.
+
+Example:
+
+```text
+    *
+   ***
+  *****
+ *******
+*********
+```
+
+---
+
+## 🎯 Key Takeaway
+
+Today's practice strengthened my understanding of nested loops, conditional logic, and mathematical programming. Solving prime number, Armstrong number, and pattern problems improved my problem-solving skills and helped me understand how loops can be used to solve real-world programming challenges.
+
+---
+
+✅ Day 10 completed successfully as part of my **#100DaysOfDataAnalyst** journey.
 
 
 
