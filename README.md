@@ -1035,6 +1035,261 @@ Today's practice strengthened my understanding of nested loops, conditional logi
 ---
 
 ✅ Day 10 completed successfully as part of my **#100DaysOfDataAnalyst** journey.
+# Day 11 – Python Problem Solving
+
+## 📚 Topics Covered
+
+Today, I practiced solving common Python programming problems to strengthen my understanding of loops, conditional statements, and logical thinking.
+
+---
+
+## 1. Palindrome
+
+A palindrome is a word or number that reads the same forwards and backwards.
+
+### Methods Practiced
+
+* Reversing a string using a `for` loop.
+* Reversing a string using Python slicing (`[::-1]`).
+
+Examples:
+
+* `madam`
+* `level`
+* `radar`
+
+---
+
+## 2. Fibonacci Series
+
+The Fibonacci sequence is a series in which each number is the sum of the previous two numbers.
+
+Example:
+
+```text
+0 1 1 2 3 5 8 13 21 ...
+```
+
+Concepts Learned:
+
+* Variable swapping.
+* Looping through a sequence.
+* Generating Fibonacci numbers up to a given limit.
+
+---
+
+## 3. Simple Calculator
+
+Built a menu-driven calculator using conditional statements.
+
+Operations included:
+
+* Addition
+* Subtraction
+* Multiplication
+* Exponentiation
+* Division
+
+This helped me understand how to create interactive programs using user input.
+
+---
+
+## 4. Multiplication Table
+
+Generated the multiplication table of a user-entered number using a `for` loop.
+
+Example:
+
+```text
+5 × 1 = 5
+5 × 2 = 10
+...
+5 × 10 = 50
+```
+
+---
+
+## 5. Perfect Number
+
+A perfect number is a positive integer that is equal to the sum of its proper factors (excluding itself).
+
+Example:
+
+```text
+6
+
+Factors: 1, 2, 3
+
+1 + 2 + 3 = 6
+```
+
+Concepts Learned:
+
+* Finding factors using loops.
+* Summing factors.
+* Comparing the result with the original number.
+
+---
+
+## 🎯 Key Takeaway
+
+Today's practice focused on improving logical thinking and problem-solving skills. By solving classic programming problems such as palindrome checking, Fibonacci series generation, calculator implementation, multiplication tables, and perfect number verification, I strengthened my understanding of loops, conditions, and algorithm design.
+
+---
+
+✅ Day 11 completed successfully as part of my **#100DaysOfDataAnalyst** journey.
+# Day 12 – Functions in Python
+
+## 📚 Topics Covered
+
+Today, I learned about **Functions** in Python and how they help organize, reuse, and simplify code.
+
+---
+
+## 1. What is a Function?
+
+A function is a reusable block of code that performs a specific task.
+
+### Benefits of Functions
+
+* Improves code reusability.
+* Reduces duplicate code.
+* Makes programs easier to read and maintain.
+* Breaks large problems into smaller, manageable parts.
+
+---
+
+## 2. Types of Functions
+
+### Built-in Functions
+
+Python provides many built-in functions, such as:
+
+* `print()`
+* `type()`
+* `max()`
+* `min()`
+* `sum()`
+
+### User-Defined Functions
+
+Functions created by the programmer using the `def` keyword.
+
+Example:
+
+```python
+def add(a, b):
+    print(a + b)
+
+add(3, 4)
+```
+
+---
+
+## 3. Types of Function Arguments
+
+### Required (Positional) Arguments
+
+Arguments must be passed in the correct order and with the required count.
+
+Example:
+
+```python
+add(3, 6)
+```
+
+---
+
+### Keyword Arguments
+
+Arguments are passed using parameter names.
+
+Example:
+
+```python
+add(a=4, b=5)
+```
+
+---
+
+### Default Arguments
+
+Parameters are assigned default values that are used if no argument is provided.
+
+Example:
+
+```python
+def greet(name="Guest"):
+    print(name)
+```
+
+---
+
+### Variable-Length Arguments
+
+Used when the number of arguments is unknown.
+
+#### `*args`
+
+* Accepts multiple positional arguments.
+* Stores them as a tuple.
+
+Example:
+
+```python
+def add(*numbers):
+    print(numbers)
+```
+
+#### `**kwargs`
+
+* Accepts multiple keyword arguments.
+* Stores them as a dictionary.
+
+Example:
+
+```python
+def details(**info):
+    print(info["Age"])
+```
+
+---
+
+## 4. Variable Scope
+
+### Global Variable
+
+A variable declared outside a function can be accessed throughout the program.
+
+### Local Variable
+
+A variable declared inside a function can only be accessed within that function.
+
+### Global Keyword
+
+The `global` keyword allows a function to modify a global variable.
+
+Example:
+
+```python
+num = 9
+
+def fun():
+    global num
+    num = 77
+```
+
+---
+
+## 🎯 Key Takeaway
+
+Functions make programs modular, reusable, and easier to maintain. Understanding different types of arguments and variable scope is essential for writing clean, efficient, and scalable Python code.
+
+---
+
+✅ Day 12 completed successfully as part of my **#100DaysOfDataAnalyst** journey.
+
+
 
 
 
