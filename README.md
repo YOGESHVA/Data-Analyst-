@@ -1288,6 +1288,108 @@ Functions make programs modular, reusable, and easier to maintain. Understanding
 ---
 
 ✅ Day 12 completed successfully as part of my **#100DaysOfDataAnalyst** journey.
+# Day 13 – Return Statement and Recursive Functions in Python
+
+## 📚 Topics Covered
+
+Today, I learned about the **`return` keyword**, explored Python's **built-in functions**, and understood the basics of **recursive functions**.
+
+---
+
+## 1. Return Statement
+
+The `return` keyword is used to send a value back from a function to the place where it was called.
+
+### Why use `return`?
+
+* Returns the result of a function.
+* Ends the execution of the function immediately.
+* Allows the returned value to be stored in a variable or used in another expression.
+
+Example:
+
+```python
+def myfunc(n):
+    return 5 + n
+
+result = myfunc(10)
+print(result)
+```
+
+Output:
+
+```text
+15
+```
+
+---
+
+## 2. Python Built-in Functions
+
+Python provides many built-in functions that simplify programming tasks.
+
+Example:
+
+```python
+import builtins
+
+built_function = [
+    name for name in dir(builtins)
+    if callable(getattr(builtins, name))
+]
+
+print(built_function)
+```
+
+This program lists all callable built-in functions available in Python.
+
+Some commonly used built-in functions include:
+
+* `print()`
+* `input()`
+* `len()`
+* `type()`
+* `sum()`
+* `max()`
+* `min()`
+* `abs()`
+* `sorted()`
+* `range()`
+
+---
+
+## 3. Recursive Functions
+
+A recursive function is a function that calls itself until a stopping condition (base case) is reached.
+
+### Basic Structure
+
+```python
+def function_name(parameter):
+    if base_case:
+        return value
+    else:
+        return function_name(updated_parameter)
+```
+
+### Why Recursion?
+
+Recursion is commonly used to solve problems that can be broken down into smaller versions of the same problem, such as:
+
+* Factorial calculation
+* Fibonacci series
+* Tree traversal
+* Searching and sorting algorithms
+
+---
+
+## 🎯 Key Takeaway
+
+The `return` statement makes functions more useful by allowing them to produce reusable results. Exploring Python's built-in functions helped me understand the language's powerful features, while recursion introduced a new way of solving repetitive problems using self-calling functions.
+
+---
+
+✅ Day 13 completed successfully as part of my **#100DaysOfDataAnalyst** journey.
 
 
 
