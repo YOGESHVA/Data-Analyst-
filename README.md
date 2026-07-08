@@ -1391,6 +1391,115 @@ The `return` statement makes functions more useful by allowing them to produce r
 
 ✅ Day 13 completed successfully as part of my **#100DaysOfDataAnalyst** journey.
 
+# Day 14 – Lambda Functions and Comprehensions in Python
+
+## 📚 Topics Covered
+
+Today, I learned about **Lambda Functions**, the **`filter()`** function, and how to write cleaner code using **List Comprehension** and **Dictionary Comprehension**.
+
+---
+
+## 1. Lambda Functions
+
+A lambda function is also known as an **anonymous function** because it is created without using the `def` keyword.
+
+### Syntax
+
+```python
+lambda arguments: expression
+```
+
+### Features
+
+* Can take any number of arguments.
+* Contains only one expression.
+* Returns the result automatically.
+
+### Example
+
+```python
+sum_ = lambda a, b: a + b
+print(sum_(10, 8))
+```
+
+---
+
+## 2. `filter()` Function
+
+The `filter()` function is a built-in function used to filter elements from an iterable such as a list, tuple, or set based on a condition.
+
+### Syntax
+
+```python
+filter(function, iterable)
+```
+
+### Examples
+
+Filter odd numbers:
+
+```python
+nums = [1, 2, 3, 4, 5]
+odd = filter(lambda x: x % 2 != 0, nums)
+print(list(odd))
+```
+
+Filter even numbers:
+
+```python
+even = filter(lambda x: x % 2 == 0, nums)
+print(list(even))
+```
+
+---
+
+## 3. List Comprehension
+
+List comprehension provides a shorter and more readable way to create a new list from an existing iterable.
+
+### Syntax
+
+```python
+new_list = [expression for item in iterable if condition]
+```
+
+### Example
+
+```python
+numbers = [1, 2, 3, 4, 5, 6]
+even_numbers = [num for num in numbers if num % 2 == 0]
+```
+
+---
+
+## 4. Dictionary Comprehension
+
+Dictionary comprehension allows us to create dictionaries in a concise and efficient way.
+
+### Syntax
+
+```python
+new_dict = {key: value for key, value in iterable if condition}
+```
+
+### Example
+
+```python
+old_dict = {1: 2, 3: 7, 5: 6}
+new_dict = {k: v for k, v in old_dict.items() if v % 2 == 0}
+```
+
+---
+
+## 🎯 Key Takeaway
+
+Lambda functions simplify small operations, `filter()` helps extract data based on conditions, and comprehensions make Python code cleaner, shorter, and more readable. These techniques are widely used in data processing and are essential skills for Python developers and Data Analysts.
+
+---
+
+✅ Day 14 completed successfully as part of my **#100DaysOfDataAnalyst** journey.
+
+
 
 
 
