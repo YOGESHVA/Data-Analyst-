@@ -1498,6 +1498,115 @@ Lambda functions simplify small operations, `filter()` helps extract data based 
 ---
 
 ✅ Day 14 completed successfully as part of my **#100DaysOfDataAnalyst** journey.
+# Day 15 – Python Function Practice
+
+## 📚 Topics Covered
+
+Today, I practiced solving programming problems using **user-defined functions**. These exercises helped me strengthen my understanding of functions, loops, conditional statements, and string methods.
+
+---
+
+## 1. Remove Duplicates from a List
+
+Created a function to remove duplicate values while preserving the original order of elements.
+
+### Example
+
+```python
+Input:  [23, 23, 4, 5, 33]
+Output: [23, 4, 5, 33]
+```
+
+### Concepts Used
+
+* Functions
+* Lists
+* Loops
+* Conditional Statements
+
+---
+
+## 2. Prime Number Check
+
+Built a function to determine whether a given number is prime by counting its factors.
+
+### Example
+
+```python
+Input: 7
+Output: Prime Number
+```
+
+### Concepts Used
+
+* Functions
+* Loops
+* Conditional Statements
+
+---
+
+## 3. Count Words in a String
+
+Created a function to count the number of words in a sentence using the `split()` method.
+
+### Example
+
+```python
+Input: "Python is a programming language"
+Output: 5
+```
+
+### Concepts Used
+
+* Strings
+* `split()`
+* Loops
+
+---
+
+## 4. Palindrome Check
+
+Practiced checking whether a string reads the same forwards and backwards.
+
+### Example
+
+```python
+Input: "madam"
+Output: Palindrome
+```
+
+### Concepts Used
+
+* String manipulation
+* Conditional Statements
+
+---
+
+## 5. Count Uppercase, Lowercase, and Spaces
+
+Created a function to count:
+
+* Uppercase letters
+* Lowercase letters
+* Spaces
+
+using Python string methods.
+
+### Methods Used
+
+* `isupper()`
+* `islower()`
+
+---
+
+## 🎯 Key Takeaway
+
+Today's practice improved my ability to solve programming problems by combining functions with loops, conditions, and string operations. These exercises strengthened my logical thinking and reinforced the importance of writing modular, reusable code.
+
+---
+
+✅ Day 15 completed successfully as part of my **#100DaysOfDataAnalyst** journey.
+
 
 
 
