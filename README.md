@@ -1606,6 +1606,94 @@ Today's practice improved my ability to solve programming problems by combining 
 ---
 
 ✅ Day 15 completed successfully as part of my **#100DaysOfDataAnalyst** journey.
+# Day 16 – Generators in Python
+
+## 📚 Topics Covered
+
+Today, I learned about **Generators** in Python and how they help produce values efficiently using the `yield` keyword.
+
+---
+
+## 1. What is a Generator?
+
+A generator is a special type of function that returns an iterator. Instead of returning all values at once, it produces one value at a time using the `yield` keyword.
+
+### Benefits of Generators
+
+* Memory efficient
+* Generates values on demand
+* Useful for processing large datasets
+* Supports lazy evaluation
+
+---
+
+## 2. `yield` Keyword
+
+The `yield` keyword pauses the execution of a function and returns a value. When `next()` is called again, execution resumes from where it stopped.
+
+Example:
+
+```python
+def numbers():
+    yield 1
+    yield 2
+    yield 3
+```
+
+---
+
+## 3. Working of Generators
+
+* Calling a generator function returns a generator object.
+* The function does not execute immediately.
+* Each call to `next()` returns the next value.
+* Execution resumes from the previous `yield` statement.
+
+---
+
+## 4. Generator vs Function
+
+| Function                      | Generator                           |
+| ----------------------------- | ----------------------------------- |
+| Uses `return`                 | Uses `yield`                        |
+| Returns all values at once    | Returns one value at a time         |
+| Execution ends after `return` | Execution pauses after each `yield` |
+| Higher memory usage           | Lower memory usage                  |
+| Cannot resume execution       | Resumes with `next()`               |
+
+---
+
+## 5. `next()` Function
+
+The `next()` function retrieves the next value from a generator.
+
+Once all values are generated, Python raises a `StopIteration` exception.
+
+---
+
+## 6. Generator Expressions
+
+Generator expressions provide a compact way to create generators using parentheses `()` instead of square brackets `[]`.
+
+Example:
+
+```python
+gen = (x * x for x in range(5))
+```
+
+They generate values one at a time, making them memory efficient.
+
+---
+
+## 🎯 Key Takeaway
+
+Generators are an efficient way to work with sequences of data because they generate values only when needed. Understanding `yield`, `next()`, and generator expressions is useful for handling large datasets, improving performance, and writing optimized Python code.
+
+---
+
+✅ Day 16 completed successfully as part of my **#100DaysOfDataAnalyst** journey.
+
+
 
 
 
