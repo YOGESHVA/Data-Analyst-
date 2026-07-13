@@ -1693,6 +1693,221 @@ Generators are an efficient way to work with sequences of data because they gene
 
 ✅ Day 16 completed successfully as part of my **#100DaysOfDataAnalyst** journey.
 
+# Day 17 – Modules in Python
+
+## 📚 Topics Covered
+
+Today, I learned about **Modules** in Python and how they help organize reusable code. I also explored some commonly used built-in modules.
+
+---
+
+## 1. What is a Module?
+
+A module is a Python file (`.py`) that contains reusable code such as:
+
+* Variables
+* Functions
+* Classes
+* Objects
+* Statements
+
+Using modules helps avoid writing the same code repeatedly and makes programs more organized and maintainable.
+
+---
+
+## 2. Types of Modules
+
+### User-Defined Modules
+
+A user-defined module is created by the programmer.
+
+### Importing a Module
+
+```python id="mbhzib"
+import module
+print(module.add(5, 3))
+```
+
+### Importing Specific Functions
+
+```python id="yjyc8e"
+from module import add, sub
+```
+
+### Importing Everything
+
+```python id="i1x6l9"
+from module import *
+```
+
+### Using an Alias
+
+```python id="c6g93o"
+import module as m
+```
+
+---
+
+## 3. Built-in Modules
+
+### Math Module
+
+Common functions:
+
+* `sqrt()` – Square root
+* `factorial()` – Factorial of a number
+* `pow()` – Power calculation
+* `ceil()` – Rounds up to the nearest integer
+* `pi` – Value of π
+
+Example:
+
+```python id="xie0ib"
+import math
+
+print(math.sqrt(25))
+print(math.factorial(5))
+print(math.pow(2, 5))
+print(math.pi)
+print(math.ceil(4.1))
+```
+
+---
+
+### OS Module
+
+The `os` module provides functions for interacting with the operating system.
+
+Examples:
+
+* `os.getcwd()` – Returns the current working directory.
+* `os.mkdir()` – Creates a new directory.
+* `os.rmdir()` – Removes an empty directory.
+
+---
+
+### Sys Module
+
+The `sys` module provides information about the Python interpreter and runtime environment.
+
+Example:
+
+```python id="y5fbyc"
+import sys
+
+print(sys.version)
+```
+
+---
+
+### Random Module
+
+The `random` module is used to generate random values.
+
+Examples:
+
+```python id="hjy8nj"
+import random
+
+print(random.randint(2000, 9000))
+
+colors = ["Yellow", "Red", "Blue", "Green"]
+print(random.choice(colors))
+```
+
+---
+
+## 🎯 Key Takeaway
+
+Modules improve code reusability, readability, and organization. Learning how to use built-in modules like `math`, `os`, `sys`, and `random` makes it easier to perform common programming tasks without writing everything from scratch.
+
+---
+
+✅ Day 17 completed successfully as part of my **#100DaysOfDataAnalyst** journey.
+# Day 18 – Sending Emails with Python (SMTP)
+
+## 📚 Topics Covered
+
+Today, I learned how to send emails using Python with the **SMTP (Simple Mail Transfer Protocol)**.
+
+---
+
+## 1. What is SMTP?
+
+SMTP (Simple Mail Transfer Protocol) is a protocol used to send emails over the internet.
+
+Python provides the `smtplib` module to connect to an SMTP server and send emails programmatically.
+
+---
+
+## 2. Modules Used
+
+* `smtplib` – Connects to an SMTP server.
+* `ssl` – Creates a secure encrypted connection.
+* `email.message.EmailMessage` – Creates and formats email messages.
+
+---
+
+## 3. Creating an Email
+
+An email consists of:
+
+* Sender (`From`)
+* Receiver (`To`)
+* Subject
+* Message Body
+
+Example:
+
+```python
+from email.message import EmailMessage
+
+message = EmailMessage()
+message["From"] = sender_email
+message["To"] = receiver_email
+message["Subject"] = "Welcome Mail"
+message.set_content("Welcome to our Python class!")
+```
+
+---
+
+## 4. Secure Connection
+
+Used SSL/TLS to establish a secure connection before logging in to the SMTP server.
+
+Example:
+
+```python
+import ssl
+
+context = ssl.create_default_context()
+```
+
+---
+
+## 5. Sending the Email
+
+Connected to Gmail's SMTP server using `smtplib`, authenticated with the sender account, and sent the email.
+
+Steps:
+
+1. Connect to the SMTP server.
+2. Start TLS encryption.
+3. Login with email credentials.
+4. Send the email.
+5. Close the connection automatically.
+
+---
+
+## 🎯 Key Takeaway
+
+Learning SMTP introduced me to Python automation beyond basic programming. Email automation is useful for sending notifications, reports, OTPs, alerts, and automated messages in real-world applications.
+
+> **Important:** Never hardcode email passwords or App Passwords in your source code. Use environment variables or a `.env` file to keep credentials secure.
+
+---
+
+✅ Day 18 completed successfully as part of my **#100DaysOfDataAnalyst** journey.
 
 
 
