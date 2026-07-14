@@ -1909,6 +1909,121 @@ Learning SMTP introduced me to Python automation beyond basic programming. Email
 
 ✅ Day 18 completed successfully as part of my **#100DaysOfDataAnalyst** journey.
 
+# Day 19 – Python Voice Assistant
+
+## 📚 Topics Covered
+
+Today, I built a simple **Voice Assistant** using Python. The assistant can recognize voice commands, respond using speech, open websites, tell the current time, and search Wikipedia.
+
+---
+
+## 🚀 Libraries Used
+
+* **pyttsx3** – Text-to-Speech (TTS)
+* **speech_recognition** – Converts speech into text
+* **datetime** – Retrieves the current date and time
+* **webbrowser** – Opens websites in the default browser
+* **wikipedia** – Fetches information from Wikipedia
+
+---
+
+## 🔹 Features Implemented
+
+### ✅ Voice Greeting
+
+The assistant greets the user based on the current time.
+
+* Good Morning
+* Good Afternoon
+* Good Evening
+
+---
+
+### ✅ Speech Recognition
+
+Used the `speech_recognition` library to listen through the microphone and convert speech into text using Google's Speech Recognition service.
+
+---
+
+### ✅ Text-to-Speech
+
+Used `pyttsx3` to make the assistant respond with voice.
+
+Example:
+
+```python
+def speak(text):
+    engine.say(text)
+    engine.runAndWait()
+```
+
+---
+
+### ✅ Current Time
+
+The assistant tells the current system time when the user asks:
+
+> "What is the time?"
+
+---
+
+### ✅ Open Websites
+
+Implemented voice commands to open:
+
+* YouTube
+* Google
+
+using Python's `webbrowser` module.
+
+---
+
+### ✅ Wikipedia Search
+
+The assistant can answer questions like:
+
+> "Who is Virat Kohli?"
+
+It searches Wikipedia and reads a short summary.
+
+---
+
+### ✅ Exit Command
+
+When the user says **"Exit"**, the assistant says goodbye and terminates the program.
+
+---
+
+## 🛠 Technologies Used
+
+* Python
+* pyttsx3
+* SpeechRecognition
+* Wikipedia API
+* Webbrowser Module
+
+---
+
+## 🎯 Key Takeaway
+
+This project helped me understand how multiple Python libraries can work together to build an interactive application. I learned about speech recognition, text-to-speech, browser automation, and integrating external APIs. It was my first step toward creating AI-powered virtual assistants.
+
+---
+
+## 🚀 Future Improvements
+
+* Open any application using voice commands.
+* Play songs automatically.
+* Weather updates.
+* Send emails using voice.
+* Search Google dynamically.
+* Tell jokes.
+* Open VS Code, Calculator, or Notepad.
+* Integrate AI (ChatGPT/Gemini) for intelligent conversations.
+
+---
+
+✅ Day 19 completed successfully as part of my **#100DaysOfDataAnalyst** journey.
 
 
 
