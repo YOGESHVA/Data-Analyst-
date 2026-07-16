@@ -2025,6 +2025,116 @@ This project helped me understand how multiple Python libraries can work togethe
 
 ✅ Day 19 completed successfully as part of my **#100DaysOfDataAnalyst** journey.
 
+# Day 21 – Constructors, Access Modifiers & Encapsulation in Python
+
+## 📚 Topics Covered
+
+Today, I continued learning **Object-Oriented Programming (OOP)** by exploring constructors, the `self` keyword, access modifiers, and encapsulation.
+
+---
+
+## 1. `self` Keyword
+
+The `self` keyword refers to the **current object** of the class. It is used to access the attributes and methods of that object.
+
+### Example
+
+```python
+class Student:
+    def display(self):
+        print("Hello")
+```
+
+---
+
+## 2. Constructor (`__init__`)
+
+A constructor is a special method that is automatically executed whenever an object is created.
+
+### Example
+
+```python
+class Batch:
+    def __init__(self, name, branch):
+        self.name = name
+        self.branch = branch
+
+    def display(self):
+        print(self.name)
+        print(self.branch)
+
+student = Batch("Yogesh", "EEE")
+student.display()
+```
+
+---
+
+## 3. Access Modifiers
+
+### ✅ Public Members
+
+Public members can be accessed from anywhere.
+
+```python
+self.name
+```
+
+### ✅ Protected Members
+
+Protected members are declared using a single underscore (`_`).
+
+```python
+self._branch
+```
+
+They are intended for internal use but can still be accessed outside the class.
+
+### ✅ Private Members
+
+Private members are declared using double underscores (`__`).
+
+```python
+self.__pin
+```
+
+They cannot be accessed directly outside the class because Python applies **name mangling**.
+
+---
+
+## 4. Encapsulation
+
+Encapsulation is the process of wrapping **data (variables)** and **methods (functions)** into a single unit (class) while controlling access to the data.
+
+### Example
+
+```python
+class ATM:
+    def __init__(self, balance):
+        self._balance = balance
+
+    def deposit(self, amount):
+        self._balance += amount
+        print(self._balance)
+```
+
+Encapsulation improves:
+
+* Data Security
+* Code Maintainability
+* Better Organization
+* Controlled Data Access
+
+---
+
+## 🎯 Key Takeaway
+
+Today I learned how constructors initialize objects automatically, how the `self` keyword represents the current object, the difference between public, protected, and private members, and how encapsulation helps protect and organize data within a class.
+
+---
+
+✅ Day 21 completed successfully as part of my **#100DaysOfDataAnalyst** journey.
+
+
 
 
 
