@@ -2133,6 +2133,156 @@ Today I learned how constructors initialize objects automatically, how the `self
 ---
 
 ✅ Day 21 completed successfully as part of my **#100DaysOfDataAnalyst** journey.
+# Day 22 – Inheritance in Python
+
+## 📚 Topics Covered
+
+Today, I learned about **Inheritance**, one of the core concepts of Object-Oriented Programming (OOP). Inheritance allows one class (child class) to acquire the properties and methods of another class (parent class), making code reusable and easier to maintain.
+
+---
+
+## What is Inheritance?
+
+Inheritance is an OOP concept where a **child (derived) class** inherits the attributes and methods of a **parent (base) class**.
+
+### Benefits of Inheritance
+
+* Code Reusability
+* Reduced Code Duplication
+* Easy Maintenance
+* Better Code Organization
+* Extensibility
+
+---
+
+## 1. Single Inheritance
+
+A child class inherits from a single parent class.
+
+### Example
+
+```python
+class Father:
+    def land(self):
+        print("5 Acres of Land")
+
+class Son(Father):
+    def flat(self):
+        print("3BHK Flat")
+```
+
+---
+
+## 2. Multiple Inheritance
+
+A child class inherits from more than one parent class.
+
+### Example
+
+```python
+class Father:
+    def skills(self):
+        print("Driving")
+
+class Mother:
+    def talent(self):
+        print("Cooking")
+
+class Son(Father, Mother):
+    def mine(self):
+        print("Coding")
+```
+
+---
+
+## 3. Multilevel Inheritance
+
+A child class becomes the parent of another class.
+
+### Example
+
+```python
+class GrandFather:
+    pass
+
+class Father(GrandFather):
+    pass
+
+class Son(Father):
+    pass
+```
+
+---
+
+## 4. Hierarchical Inheritance
+
+Multiple child classes inherit from the same parent class.
+
+### Example
+
+```python
+class Father:
+    pass
+
+class Son1(Father):
+    pass
+
+class Son2(Father):
+    pass
+```
+
+---
+
+## 5. Hybrid Inheritance
+
+Hybrid inheritance is a combination of two or more inheritance types.
+
+Example:
+
+* Multiple Inheritance
+* Multilevel Inheritance
+
+---
+
+## 6. `super()` Function
+
+The `super()` function is used to access the parent class methods or constructor from the child class.
+
+### Example
+
+```python
+class Parent:
+    def show(self):
+        print("Parent Method")
+
+class Child(Parent):
+    def show(self):
+        super().show()
+        print("Child Method")
+```
+
+It is also commonly used to call the parent class constructor.
+
+```python
+class Person:
+    def __init__(self, name):
+        self.name = name
+
+class Student(Person):
+    def __init__(self, name, roll):
+        super().__init__(name)
+        self.roll = roll
+```
+
+---
+
+## 🎯 Key Takeaway
+
+Inheritance is one of the most powerful OOP concepts because it promotes code reuse and creates relationships between classes. Learning the different types of inheritance and the `super()` function helps build scalable and maintainable Python applications.
+
+---
+
+✅ Day 22 completed successfully as part of my **#100DaysOfDataAnalyst** journey.
 
 
 
