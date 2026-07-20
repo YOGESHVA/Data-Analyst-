@@ -2315,6 +2315,82 @@ Every day I'm building a stronger Python foundation and moving one step closer t
 
 #Python #100DaysOfDataAnalyst #PythonProgramming #OOP #Polymorphism #Abstraction #LearningInPublic #CodingJourney #DataAnalytics #CareerGrowth
 
+# Day 24 – University Management System (Python OOP Project)
+
+## 📚 Project Overview
+
+Today, I built a **University Management System** using Python by applying all the core Object-Oriented Programming (OOP) concepts I have learned so far.
+
+This project manages student and faculty information while demonstrating real-world implementation of classes, inheritance, encapsulation, polymorphism, class methods, static methods, and constructors.
+
+---
+
+## 🚀 OOP Concepts Used
+
+### ✅ Classes and Objects
+
+Created classes to represent real-world entities like **Person**, **Student**, and **Faculty**.
+
+### ✅ Inheritance
+
+Both `Student` and `Faculty` inherit common properties from the `Person` class.
+
+### ✅ Constructors (`__init__`)
+
+Used constructors to initialize object attributes automatically.
+
+### ✅ Encapsulation
+
+Protected sensitive information like Student ID and Faculty ID using private attributes.
+
+### ✅ Method Overriding
+
+Overrode the `display_info()` method in child classes to display customized information.
+
+### ✅ Polymorphism
+
+Used the same `display_info()` method for different objects (`Student` and `Faculty`) with different implementations.
+
+### ✅ Class Attributes
+
+Implemented a common university name shared by all objects.
+
+### ✅ Class Methods
+
+Maintained the total number of students and faculty members using class methods.
+
+### ✅ Static Methods
+
+Created a university policy method that belongs to the class rather than any specific object.
+
+### ✅ super()
+
+Used the `super()` function to call the parent class constructor and avoid code duplication.
+
+---
+
+## 🛠 Features
+
+* Add Student Details
+* Add Faculty Details
+* Display Student Information
+* Display Faculty Information
+* Secure Student and Faculty IDs using Encapsulation
+* Display University Policy
+* Count Total Students
+* Count Total Faculty Members
+
+---
+
+## 🎯 Key Takeaway
+
+This project helped me understand how multiple OOP concepts work together in a real-world application. Building a complete project strengthened my understanding of inheritance, encapsulation, polymorphism, constructors, and class design.
+
+This marks an important milestone in my Python learning journey.
+
+---
+
+✅ Day 24 completed successfully as part of my **#100DaysOfDataAnalyst** journey.
 
 
 
