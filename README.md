@@ -2392,6 +2392,106 @@ This marks an important milestone in my Python learning journey.
 
 ✅ Day 24 completed successfully as part of my **#100DaysOfDataAnalyst** journey.
 
+# Day 26 – File Handling in Python
+
+## 📚 Topics Covered
+
+Today, I learned **File Handling** in Python, which allows programs to create, read, write, update, and manage files efficiently.
+
+---
+
+## 🚀 What is File Handling?
+
+File handling is used to perform operations on files such as reading, writing, appending, and creating files. It enables programs to store data permanently instead of keeping it only in memory.
+
+---
+
+## Ways to Open a File
+
+### 1. Using `open()`
+
+```python
+file = open("sample.txt", "r")
+# Perform operations
+file.close()
+```
+
+Always remember to close the file after use.
+
+---
+
+### 2. Using `with` Statement (Recommended)
+
+```python
+with open("sample.txt", "r") as file:
+    print(file.read())
+```
+
+The `with` statement automatically closes the file after execution.
+
+---
+
+## File Modes
+
+### ✅ `r` – Read Mode
+
+* Opens an existing file for reading.
+* Raises `FileNotFoundError` if the file does not exist.
+
+### ✅ `w` – Write Mode
+
+* Creates a new file if it doesn't exist.
+* Overwrites the existing file content.
+
+### ✅ `a` – Append Mode
+
+* Adds new content at the end of the file.
+* Does not overwrite existing data.
+
+### ✅ `x` – Create Mode
+
+* Creates a new file.
+* Raises `FileExistsError` if the file already exists.
+
+---
+
+## File Methods
+
+### `write()`
+
+Writes data into a file.
+
+### `read()`
+
+Reads the entire file or a specified number of characters.
+
+### `readline()`
+
+Reads a single line from the file.
+
+### `readlines()`
+
+Reads all lines and returns them as a list.
+
+---
+
+## Example
+
+```python
+with open("hello.txt", "r") as file:
+    print(file.readline())
+    print(file.readlines())
+```
+
+---
+
+## 🎯 Key Takeaway
+
+File handling is an important Python feature that enables programs to store, retrieve, and update data in files. Using the `with` statement makes file operations safer by automatically closing the file after use.
+
+---
+
+✅ Day 26 completed successfully as part of my **#100DaysOfDataAnalyst** journey.
 
 
 
