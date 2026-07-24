@@ -2493,6 +2493,274 @@ File handling is an important Python feature that enables programs to store, ret
 
 ✅ Day 26 completed successfully as part of my **#100DaysOfDataAnalyst** journey.
 
+# Day 27 – Regular Expressions (Regex) in Python
+
+## 📚 Topics Covered
+
+Today, I learned **Regular Expressions (Regex)** in Python. Regex is a powerful tool used for searching, matching, validating, and manipulating text using specific patterns.
+
+---
+
+## 🚀 What is Regex?
+
+A **Regular Expression (Regex)** is a sequence of characters that defines a search pattern. It is commonly used for:
+
+* Searching text
+* Validating user input
+* Finding specific patterns
+* Replacing text
+* Splitting strings
+
+Python provides Regex support through the built-in **`re`** module.
+
+```python
+import re
+```
+
+---
+
+## Regex Functions
+
+### ✅ `findall()`
+
+Returns all matches as a list.
+
+```python
+import re
+
+text = "Python is a language"
+print(re.findall("a", text))
+```
+
+---
+
+### ✅ `search()`
+
+Searches for the first occurrence of a pattern.
+
+```python
+print(re.search("a", text))
+```
+
+---
+
+### ✅ `split()`
+
+Splits a string based on the given pattern.
+
+```python
+print(re.split(" ", text))
+```
+
+---
+
+### ✅ `sub()`
+
+Replaces matched text with another value.
+
+```python
+print(re.sub(" ", "&", text))
+```
+
+---
+
+### ✅ `fullmatch()`
+
+Checks whether the entire string matches the given pattern.
+
+```python
+print(re.fullmatch("Python", "Python"))
+```
+
+---
+
+## Common Regex Metacharacters
+
+### `[]`
+
+Matches a range of characters.
+
+```python
+[0-9]   # Digits
+[a-z]   # Lowercase letters
+[A-Z]   # Uppercase letters
+```
+
+---
+
+### `^`
+
+Matches the beginning of a string.
+
+```python
+^Python
+```
+
+---
+
+### `$`
+
+Matches the end of a string.
+
+```python
+school$
+```
+
+---
+
+### `.`
+
+Matches any single character except a newline.
+
+```python
+T...
+```
+
+---
+
+### `*`
+
+Matches zero or more occurrences.
+
+```python
+p.*n
+```
+
+---
+
+### `+`
+
+Matches one or more occurrences.
+
+```python
+p.+n
+```
+
+---
+
+### `{}`
+
+Specifies the exact number of characters.
+
+```python
+p.{10}
+```
+
+---
+
+## 🎯 Key Takeaway
+
+Regular Expressions make it easy to search, validate, replace, and manipulate text efficiently. Regex is an essential skill for data cleaning, input validation, log analysis, and text processing in Python.
+
+---
+
+✅ Day 27 completed successfully as part of my **#100DaysOfDataAnalyst** journey.
+# Day 28 – DateTime, NumPy, Pandas & Introduction to Data Analysis
+
+## 📅 Topics Covered
+
+Today, I learned the fundamentals of **DateTime**, **Calendar**, **NumPy**, **Pandas**, and an introduction to **Data Analysis** in Python.
+
+---
+
+## 📌 DateTime Module
+
+Learned how to work with the current date and time using the `datetime` module.
+
+### Topics Covered:
+
+* `datetime.now()`
+* `today()`
+* `strftime()` for formatting date and time
+
+### Common Format Codes
+
+* `%d` → Day
+* `%m` → Month
+* `%Y` → Year
+* `%H` → 24-hour format
+* `%I` → 12-hour format
+* `%M` → Minutes
+* `%S` → Seconds
+* `%p` → AM/PM
+
+---
+
+## 📅 Calendar Module
+
+Learned to use Python's built-in `calendar` module.
+
+### Functions Covered
+
+* `calendar.month()`
+* `calendar.calendar()`
+* `calendar.weekday()`
+* `calendar.isleap()`
+
+---
+
+## 📊 Introduction to Data Analysis
+
+Data Analysis is the process of collecting, cleaning, transforming, analyzing, and interpreting data to discover useful insights and support better decision-making.
+
+### Types of Data Analysis
+
+* Descriptive Analysis
+* Diagnostic Analysis
+* Predictive Analysis
+* Prescriptive Analysis
+
+### Data Analysis Workflow
+
+* Collect Data
+* Clean Data
+* Transform Data
+* Analyze Data
+* Visualize Data
+* Draw Insights
+
+---
+
+## 🔢 NumPy
+
+NumPy (Numerical Python) is a Python library used for numerical computing and efficient array operations.
+
+### Topics Covered
+
+* Creating NumPy arrays
+* 1D Arrays
+* 2D Arrays
+* Array Indexing
+* Negative Indexing
+* Array Slicing
+* Array Methods
+
+  * `sum()`
+  * `mean()`
+  * `max()`
+  * `min()`
+* `reshape()` function
+
+---
+
+## 🐼 Pandas
+
+Pandas is a powerful Python library built on top of NumPy for data manipulation and analysis.
+
+### Topics Covered
+
+* Creating a Series
+* Creating a DataFrame
+* Working with rows and columns
+* Organizing structured data
+
+---
+
+## 🎯 Key Takeaway
+
+Today I learned the basics of Data Analysis along with two of the most important Python libraries—NumPy and Pandas. Understanding arrays, Series, and DataFrames is a major step toward performing real-world data analysis and preparing datasets for visualization and machine learning.
+
+✅ Day 28 completed successfully as part of my **#100DaysOfDataAnalyst** journey.
 
 
 
